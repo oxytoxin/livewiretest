@@ -9,6 +9,8 @@ A bug exists in livewire that started from version 2.6.0 where:
 ## Steps to reproduce
 
 -   Clone this repo
+-   install composer and npm dependencies
+-   npm run dev
 -   copy .env.example to .env
 -   execute database migrations
 -   use the User factory to create dummy users (100 for demo purposes)
