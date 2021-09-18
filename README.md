@@ -12,6 +12,8 @@ A bug exists in livewire that started from version 2.6.0 where:
 -   install composer and npm dependencies
 -   npm run dev
 -   copy .env.example to .env
+-   create file database/database.sqlite
+-   php artisan key:generate
 -   execute database migrations
 -   use the User factory to create dummy users (100 for demo purposes)
 -   navigate to '/' page and try to type in the input field, after 30 seconds the max execution time error from php is thrown (time may depend on environment configurations)
